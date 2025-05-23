@@ -8,16 +8,9 @@
 
   <body>
     <div id="root"></div>
-    <!-- injecting the react in project using CDN Links -->
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
+
     <!-- write hello world using React -->
-    <script src="./App.js"></script>
+    <!-- Consider this file as a module not a normal JS script file. -->
+    <script type="module" src="./App.js"></script>
   </body>
 </html>
